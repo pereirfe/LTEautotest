@@ -1,0 +1,3 @@
+<commands network="GSM_GPRS" version="v1">
+<command>SOUR:GSM:SIGN:CELL:STAT OFF</command>
+</commands>

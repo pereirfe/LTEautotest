@@ -1,0 +1,3 @@
+<commands network="GSM_GPRS">
+<command>CALL:GSM:SIGN:PSWitched:ACTion SMS</command>
+</commands>

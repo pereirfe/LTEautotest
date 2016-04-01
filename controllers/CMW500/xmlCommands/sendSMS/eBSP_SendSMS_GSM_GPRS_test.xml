@@ -1,0 +1,9 @@
+<commands network="GSM_GPRS" version="v1">
+<command>CONFigure:DATA:MEAS:PING:DIPaddress '172.17.70.234'</command>
+<command>CONFigure:DATA:MEAS:PING:INTerval 0.5</command>
+<command>CONFigure:DATA:MEAS:PING:TIMeout 3</command>
+<command>CONFigure:DATA:MEAS:PING:PSIZe 50</command>
+<command>CONFigure:DATA:MEAS:PING:PCOunt 10</command>
+<command>INIT:DATA:MEAS:PING</command>
+<command>CALL:GSM:SIGN:PSWitched:ACTion SMS</command>
+</commands>

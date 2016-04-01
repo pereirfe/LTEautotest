@@ -1,0 +1,72 @@
+<commands network="LTE" version="v3">
+<command>SYSTem:PRESet:ALL</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:ADDRess:TYPE STATic</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:SMASk '255.255.255.0'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:IPADdress '172.17.70.233'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:GIP '172.17.70.1'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:ADD '172.17.70.234'</command>
+<command>CONFigure:DATA:CONTrol:DNS:PRIMary:STYPe FOReign</command>
+<command>CONFigure:DATA:CONTrol:DNS:SECondary:STYPe FOReign</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:PRIMary:ADDRess '192.168.4.51'</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:SECondary:ADDRess '192.168.4.52'</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:UDHCp OFF, OFF, OFF, OFF</command>
+<command>SOURce:DATA:CONTrol:DNS:STATe ON</command>
+<command>SYST:DISP:UPD OFF</command>
+<command>SOUR:LTE:SIGN:CELL:STAT OFF</command>
+<command>CONF:LTE:SIGN:DMOD FDD</command>
+<command>CONF:LTE:SIGN:BAND OB7</command>
+<command>CONF:LTE:SIGN:CELL:MNC:DIG TWO</command>
+<command>CONF:LTE:SIGN:CELL:SEC:AUTH ON</command>
+<command>CONF:LTE:SIGN:CELL:SEC:NAS ON</command>
+<command>CONF:LTE:SIGN:CELL:SEC:AS ON</command>
+<command>CONF:LTE:SIGN:CELL:SEC:IALG S3G</command>
+<command>CONF:LTE:SIGN:DL:RSEP:LEV -55</command>
+<command>CONF:LTE:SIGN:CONN:AMDB OFF</command>
+<command>CONF:LTE:SIGN:CELL:BAND:DL B100</command>
+<command>CONF:LTE:SIGN:RFS:CHAN:DL 3099</command>
+<command>CONF:LTE:SIGN:RFS:ENPM ULPC</command>
+<command>CONF:LTE:SIGN:UL:PUSC:TPC:SET CLO</command>
+<command>CONF:LTE:SIGN:CONN:KRRC OFF</command>
+<command>CONF:LTE:SIGN:CONN:DLP OFF</command>
+<command>CONF:LTE:SIGN:DL:RSEP:LEV -85.00</command>
+<command>CONF:LTE:SIGN:UL:PUSC:OLNP 10.00</command>
+<command>CONF:LTE:SIGN:UL:PUSC:TPC:CLTP 10.00</command>
+<command>CONF:LTE:SIGN:CELL:MCC 1</command>
+<command>CONF:LTE:SIGN:CELL:MNC 1</command>
+<command>CONF:LTE:SIGN:CELL:TAC 1</command>
+<command>CONF:LTE:SIGN:RFS:EATT:INP  0.00</command>
+<command>CONF:LTE:SIGN:RFS:EATT:OUTP  0.00</command>
+<command>CONF:LTE:SIGN:CONN:CTYP DAPP</command>
+<command>CONF:LTE:SIGN:CONN:DPCY P128</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL1 ON,OB7,3099, 1,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL2 ON,OB7,3099, 2,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL3 ON,OB7,3099, 3,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL4 ON,OB7,3099, 4,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL5 ON,OB7,3099, 5,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL6 ON,OB7,3099, 6,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL7 ON,OB7,3099, 7,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL8 ON,OB7,3099, 8,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL9 ON,OB7,3099, 9,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL10 ON,OB7,3099, 10,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL11 ON,OB7,3099, 11,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL12 ON,OB7,3099, 12,ZERO</command>
+<command>0 CONF:LTE:SIGN:NCEL:LTE:CELL13 ON,OB7,3099, 13,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL14 ON,OB7,3099, 14,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL15 ON,OB7,3099, 15,ZERO</command>
+<command>CONF:LTE:SIGN:NCEL:LTE:CELL16 ON,OB7,3099, 16,ZERO</command>
+<command>CONF:LTE:SIGN:CELL:RES:SEAR:INTR OFF</command>
+<command>CONF:LTE:SIGN:CELL:RES:QUAL:RXL -120</command>
+<command>CONF:LTE:SIGN:DL:OCNG ON</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:ENABle UDEF</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:ODTimer PSF3</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:ITIMer PSF3</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:RTIMer PSF16</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:LDCYcle SF40</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:SOFFset 35</command>
+<command>CONFigure:LTE:SIGN:CONNection:CDRX:UDSCheduling ON</command>
+<command>CONFigure:LTE:SIGN:SMS:OUTGoing:INTernal "Check this out Check this out Check this out Check this out"</command>
+<command>SOUR:LTE:SIGN:CELL:STAT ON</command>
+</commands>

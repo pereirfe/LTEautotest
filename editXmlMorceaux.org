@@ -1,0 +1,18 @@
+// *****************************************************************************
+// Disable automatic detection of RB configuration and
+// set the number of resource blocks and the RB offset manually.
+// *****************************************************************************
+CONFigure:LTE:MEAS:MEValuation:RBALlocation:AUTO OFF
+CONFigure:LTE:MEAS:MEValuation:RBALlocation:NRB 5
+CONFigure:LTE:MEAS:MEValuation:RBALlocation:ORB 2
+
+------------------------
+
+
+
+18,21,24,Q64,Q64,Q64,Q64,Q64,Q64,Q64,Q64,Q64,Q64,26,26,26,26,26,26,26,26,26,26
+CONF:LTE:SIGN:CONN:UDTT:UL:ALL 50,45,40,36,30,24,18,12,8,3,0,2,5,7,10,13,16,19,
+21,24,Q16,Q16,Q16,Q16,Q16,Q16,Q16,Q16,Q16,Q16,19,19,19,19,19,19,19,19,19,19
+SENSe:LTE:SIGN:CONNection:PCC:UDTTibased:DL1:CRATe:ALL?
+SENSe:LTE:SIGN:CONNection:PCC:UDTTibased:DL2:CRATe:ALL?
+SENSe:LTE:SIGN:CONNection:UDTTibased:UL:CRATe:ALL?

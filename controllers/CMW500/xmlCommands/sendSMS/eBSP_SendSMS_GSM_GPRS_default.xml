@@ -1,0 +1,10 @@
+<commands network="GSM_GPRS" version="v1">
+<command>CONFigure:DATA:MEAS:PING:DIPaddress '172.17.70.234'</command>
+<command>CONFigure:DATA:MEAS:PING:INTerval 1</command>
+<command>CONFigure:DATA:MEAS:PING:TIMeout 3</command>
+<command>CONFigure:DATA:MEAS:PING:PSIZe 100</command>
+<command>CONFigure:DATA:MEAS:PING:PCOunt 2</command>
+<command>INIT:DATA:MEAS:PING</command>
+<command>WHILE FETCh:DATA:MEAS:PING:STATe? <> "RDY"</command>
+<command>CALL:GSM:SIGN:PSWitched:ACTion SMS</command>
+</commands>

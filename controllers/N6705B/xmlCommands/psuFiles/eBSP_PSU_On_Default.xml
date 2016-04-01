@@ -1,0 +1,8 @@
+<commands state="Turn On">
+<command>*RST</command>
+<command>*CLS</command>
+<command>VOLT 3.8,(@1)</command>
+<command>CURR:LIM 3.06,(@1)</command>
+<command>VOLT:SENS:SOUR EXT,(@1)</command>
+<command>OUTPUT on,(@1)</command>
+</commands>

@@ -1,0 +1,3 @@
+<commands network="WCDMA" version="v1">
+<command>CALL:WCDMa:SIGN:CSWitched:ACTion SSMS</command>
+</commands>

@@ -1,0 +1,3 @@
+<commands network="WCDMA" version="v1">
+<command>SOUR:WCDM:SIGN:CELL:STAT OFF</command>
+</commands>

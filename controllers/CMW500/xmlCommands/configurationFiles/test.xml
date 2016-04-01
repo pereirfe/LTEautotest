@@ -1,0 +1,15 @@
+<commands network="LTE" version="v3">
+<command>CONFigure:DATA:CONTrol:IPVFour:ADDRess:TYPE STATic</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:SMASk '255.255.255.0'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:IPADdress '172.17.70.233'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:GIP '172.17.70.1'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:ADD '172.17.70.234'</command>
+<command>CONFigure:DATA:CONTrol:DNS:PRIMary:STYPe FOReign</command>
+<command>CONFigure:DATA:CONTrol:DNS:SECondary:STYPe FOReign</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:PRIMary:ADDRess '192.168.4.51'</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:SECondary:ADDRess '192.168.4.52'</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:UDHCp OFF, OFF, OFF, OFF</command>
+</commands>

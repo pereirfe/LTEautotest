@@ -1,0 +1,71 @@
+<commands network="GSM_GPRS" version="v4">
+    <command>*CLS</command>
+    <command>SOUR:GSM:SIGN:CELL:STAT OFF</command>
+    <command>*RST</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:ADDRess:TYPE STATic</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:SMASk '255.255.255.0'</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:IPADdress '172.17.70.233'</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:GIP '172.17.70.1'</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+    <command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:ADD '172.17.70.234'</command>
+    <command>CONFigure:DATA:CONTrol:DNS:PRIMary:STYPe FOReign</command>
+    <command>CONFigure:DATA:CONTrol:DNS:SECondary:STYPe FOReign</command>
+    <command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:PRIMary:ADDRess '192.168.4.51'</command>
+    <command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:SECondary:ADDRess '192.168.4.52'</command>
+    <command>CONFigure:DATA:CONTrol:DNS:FOReign:UDHCp OFF, OFF, OFF, OFF</command>
+    <command>SOURce:DATA:CONTrol:DNS:STATe ON</command>
+    <command>CONF:GSM:SIGN:BAND G18</command>
+    <command>CONF:GSM:SIGN:CELL:MNC:DIG TWO</command>
+    <command>CONF:GSM:SIGN:CELL:IME ON</command>
+    <command>CONF:GSM:SIGN:CELL:LUPD ALW</command>
+    <command>CONF:GSM:SIGN:RFS:PCL:TCH:CSW 7</command>
+    <command>CONF:GSM:SIGN:RFS:LEV:TCH -82.00</command>
+    <command>CONF:GSM:SIGN:CELL:MCC 1</command>
+    <command>CONF:GSM:SIGN:CELL:MNC 1</command>
+    <command>CONF:GSM:SIGN:CELL:LAC 1</command>
+    <command>CONF:GSM:SIGN:CELL:BSAG 1</command>
+    <command>CONF:GSM:SIGN:CELL:BSP 5</command>
+    <command>CONF:GSM:SIGN:CELL:PLUP 0</command>
+    <command>CONF:GSM:SIGN:CELL:DTX OFF</command>
+    <command>CONF:GSM:SIGN:RFS:EATT:INP  0.00</command>
+    <command>CONF:GSM:SIGN:RFS:EATT:OUTP  0.00</command>
+    <command>CONF:GSM:SIGN:RFS:CHAN:BCCH 698</command>
+    <command>CONF:GSM:SIGN:NCEL:WCDM:CELL1 OFF, OB1, 10700, #H0</command>
+    <command>CONF:GSM:SIGN:NCEL:WCDM:CELL2 OFF, OB1, 10700, #H0</command>
+    <command>CONF:GSM:SIGN:NCEL:WCDM:CELL3 OFF, OB1, 10700, #H0</command>
+    <command>CONF:GSM:SIGN:NCEL:WCDM:CELL4 OFF, OB1, 10700, #H0</command>
+    <command>CONF:GSM:SIGN:RFS:HOPP:SEQ:TCH 512,600,690,780,855,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,O</command>
+    <command>CONF:GSM:SIGN:RFS:HOPP:ENAB:TCH ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL1 ON,G18,512,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL2 ON,G18,536,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL3 ON,G18,560,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL4 ON,G18,585,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL5 ON,G18,610,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL6 ON,G18,635,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL7 ON,G18,660,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL8 ON,G18,685,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL9 ON,G18,710,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL10 ON,G18,735,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL11 ON,G18,760,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL12 ON,G18,785,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL13 ON,G18,810,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL14 ON,G18,835,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL15 ON,G18,860,ON</command>
+    <command>CONF:GSM:SIGN:NCEL:GSM:CELL16 ON,G18,885,ON</command>
+    <command>CONF:GSM:SIGN:ETOE ON</command>
+    <command>CONF:GSM:SIGN:CELL:PSD ON</command>
+    <command>CONF:GSM:SIGN:CELL:PSD ON</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:TLEVel EGPRs</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:CSCHeme:UL MC9</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:SCONfig:ENABle:UL OFF,OFF,OFF,OFF,ON,OFF,OFF,OFF</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:SCONfig:ENABle:DL:CARR OFF,OFF,ON,ON,ON,ON,OFF,OFF</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:SCONfig:GAMMa:UL 13,13,13,13,13,13,13,13</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:SCONfig:LEVel:DL:CARRier 0,0,0,0,0,0,0,0</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:SCONfig:CSCHeme:DL:CARRier MC9,MC9,MC9,MC9,MC9,MC9,MC9,MC9</command>
+    <command>CONFigure:GSM:SIGN:CONNection:PSWitched:SCONfig:UDCYcle:DL:CARRier 100,100,100,100,100,100,100,100</command>
+    <command>CONFigure:GSM:SIGN:SMS:OUTGoing:SDOMain PS</command>
+    <command>CONFigure:GSM:SIGN:SMS:OUTGoing:INTernal "Check this out Check this out Check this out Check this out"</command>
+    <command>SOUR:GSM:SIGN:CELL:STAT ON</command>
+</commands>

@@ -1,0 +1,53 @@
+<commands network="WCDMA" version="v3">
+<command>*CLS</command>
+<command>SYST:DISP:UPD OFF</command>
+<command>SOUR:WCDM:SIGN:CELL:STAT OFF</command>
+<command>*RST</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:ADDRess:TYPE STATic</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:SMASk '255.255.255.0'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:IPADdress '172.17.70.233'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:GIP '172.17.70.1'</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:DELete 0</command>
+<command>CONFigure:DATA:CONTrol:IPVFour:STATic:ADDResses:ADD '172.17.70.234'</command>
+<command>CONFigure:DATA:CONTrol:DNS:PRIMary:STYPe FOReign</command>
+<command>CONFigure:DATA:CONTrol:DNS:SECondary:STYPe FOReign</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:PRIMary:ADDRess '192.168.4.51'</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:SECondary:ADDRess '192.168.4.52'</command>
+<command>CONFigure:DATA:CONTrol:DNS:FOReign:UDHCp OFF, OFF, OFF, OFF</command>
+<command>SOURce:DATA:CONTrol:DNS:STATe ON</command>
+<command>ROUT:WCDM:SIGN:SCEN:SCEL RF1C,RX1,RF1C,TX1</command>
+<command>CONF:WCDM:SIGN:BAND OB5</command>
+<command>CONF:WCDM:SIGN:CELL:REQ:IMEI ON</command>
+<command>CONF:WCDM:SIGN:CELL:REQ:ADET ON</command>
+<command>CONF:WCDM:SIGN:UL:TPC:SET CLO</command>
+<command>CONF:WCDM:SIGN:UL:TPC:TPOW:REF TOT</command>
+<command>CONF:WCDM:SIGN:CELL:MNC 1,D2</command>
+<command>CONF:WCDM:SIGN:RFS:COP -61.00</command>
+<command>CONF:WCDM:SIGN:CELL:SCOD 255</command>
+<command>CONF:WCDM:SIGN:UL:SCOD 0</command>
+<command>CONF:WCDM:SIGN:CELL:MCC 1</command>
+<command>CONF:WCDM:SIGN:CELL:LAC 1</command>
+<command>CONF:WCDM:SIGN:UL:PRAC:DRXC 7</command>
+<command>CONF:WCDM:SIGN:CELL:TOUT:T3212 0</command>
+<command>CONF:WCDM:SIGN:UL:TPC:TPOW 10.00</command>
+<command>CONF:WCDM:SIGN:CELL:RES:QUAL -10,-113</command>
+<command>CONF:WCDM:SIGN:CELL:RES:SEAR 12, 10, -32</command>
+<command>CONF:WCDM:SIGN:DL:LEV:PCP -3.30</command>
+<command>CONF:WCDM:SIGN:CELL:PSD ON</command>
+<command>CONF:WCDM:SIGN:ETOE ON</command>
+<command>CONF:WCDM:SIGN:RFS:COP -61.00</command>
+<command>CONF:WCDMa:SIGN:RFS:CARR:EATT:OUTPut 8</command>
+<command>CONF:WCDMa:SIGN:RFS:CARR:EATT:INPut 8</command>
+<command>CONF:WCDM:SIGN:DL:LEV:PCP -3.30</command>
+<command>CONF:WCDM:SIGN:DL:LEV:PICH -8.3</command>
+<command>CONF:WCDM:SIGN:CELL:RES:QUAL -20,-113</command>
+<command>CONF:WCDM:SIGN:CELL:RES:SEAR 12,10, 4</command>
+<command>CONF:WCDM:SIGN:CELL:TOUT:PPIF 18</command>
+<command>CALL:WCDMa:SIGN:RSIGnaling:ACTion ON</command>
+<command>CONFigure:WCDMa:SIGN:CELL:CPC:HORDer:SEND</command>
+<command>CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:ENABle ON</command>
+<command>CONFigure:WCDMa:SIGN:SMS:OUTGoing:INTernal "Check this out Check this out Check this out Check this out"</command>
+<command>SOUR:WCDM:SIGN:CELL:STAT ON</command>
+</commands>

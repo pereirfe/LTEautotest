@@ -1,0 +1,12 @@
+// *****************************************************************************
+// Disable automatic detection of RB configuration and
+// set the number of resource blocks and the RB offset manually.
+// *****************************************************************************
+CONFigure:LTE:MEAS:MEValuation:RBALlocation:AUTO OFF
+CONFigure:LTE:MEAS:MEValuation:RBALlocation:NRB 5
+CONFigure:LTE:MEAS:MEValuation:RBALlocation:ORB 2
+
+------------------------
+
+
+

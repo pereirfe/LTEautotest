@@ -1,0 +1,3 @@
+<commands network="LTE" version="v1">
+<command>CALL:LTE:SIGN:PSWitched:ACTion SMS</command>
+</commands>
