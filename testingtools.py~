@@ -1,0 +1,31 @@
+def mountFilename(testname,param,value,extension):
+    """ Mount the filename testname_parameter_value.extension """
+    return str(testname+"_"+param+"_"+value+"_"+extension)
+
+def runTest(osc,filename):
+    print "\n\t -- Running test for %s" % filename
+    osc_commandlist = []
+    _ = "MMEM:EXP:DLOG \"external:\\" + filename + "\""
+    osc_commandlist.append(_)
+    osc_commandlist.append("SENSe:eLOG:TIME 10")
+    osc_commandlist.append("INIT:eLOG (@1)")
+
+    # for x in osc_commandlist:
+    #     queryReturn = osc.query(x)
+    #     print "Command: %s" 
+    #     print "Return : %s" % queryReturn
+    #     print ""
+
+
+def addNewTest(cmw_testlist, test, testname, param, value):
+    filename = mountFilename(testname, param, value, ".csv")
+    cmw_testlist[0].append(test)
+    cmw_testlist[1].append(filename)
+
+def setTest(cmw, test):
+    print "Setting test %s" % test
+    qrret = cmw.query(test)
+    print "Return : %s" % qrret
+    time.delay(5)
+
+

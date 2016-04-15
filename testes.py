@@ -19,7 +19,6 @@ command.append("CONFigure:LTE:SIGN:UL:PUSCh:TPC:SET CLOop")
 # Closed  Loop Target Power
 command.append("CONF:LTE:SIGN:UL:PUSCH:TPC:CLTPower 50")
 
-
 for x in command:
     queryReturn = cwm.query(x)
     print "Command: %s" % x
